@@ -1,0 +1,311 @@
+.header{
+    width: 100%;
+    background-size: 100%;
+    padding-bottom: 100px;
+    background: #60606e url(../img/header_bg.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.header__logo{
+    font-size: 18px;
+    line-height: 48px;
+    color: #60606e;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    padding-left: 5%;
+    padding-top: 30px;
+}
+.header__menu{
+    padding: 30px;
+
+}
+
+.header__menu-item{
+    list-style: none;
+    font-size: 14px;
+    line-height: 28px;
+    color: #0a0909;
+    padding-left: 40px;
+    font-family: "Open Sans", sans-serif;
+}
+.header__text1{
+    margin-top: 10%;
+    background-color: #7beec7;
+    font-size: 18px;
+    color: #60606e;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+
+}
+
+.header__text2{
+    font-size: 48px;
+    padding: 0px 10px;
+    color: #60606e;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border: 10px solid #60606e;
+}
+.header__text3{
+    font-size: 16px;
+    line-height: 24px;
+    color: #60606e;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 30px;
+}
+.header__img{
+    height: 70%;
+}
+.header_block.row{
+    margin-top: 7%;
+}
+.header__text4{
+    font-size: 30px;
+    line-height: 48px;
+    color: #60606e;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+.header__text5{
+    font-size: 16px;
+    line-height: 30px;
+    color: #60606e;
+    font-family: "Open Sans", sans-serif;
+}
+.header__button{
+    font-size: 14px;
+    line-height: 48px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    background-color: #7beec7;
+    width: 60%;
+    cursor: pointer;
+}
+.why{
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.why__text1{
+    font-size: 30px;
+    line-height: 48px;
+    color: #60606e;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+.why__text2{
+    font-size: 14px;
+    line-height: 24px;
+    color: #60606e;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+.why_block{
+    margin-top: 50px;
+}
+.why__block1-1{
+    padding-top: 30px;
+}
+.why__block1-2{
+    font-size: 18px;
+    line-height: 28px;
+    color: #60606e;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+.why__block1-3{
+    font-size: 14px;
+    line-height: 30px;
+    color: #999999;
+    font-family: "Open Sans", sans-serif;
+
+}
+.why__img{
+    height: 70%;
+}
+.why__item{
+    cursor: pointer;
+}
+
+.portfolio{
+    padding-bottom: 100px;
+}
+.portfolio__text1{
+    font-size: 30px;
+    line-height: 28px;
+    color: #60606e;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+.portfolio__text2{
+    font-size: 14px;
+    line-height: 24px;
+    color: #60606e;
+    font-family: "Open Sans", sans-serif;
+}
+.portfolio__block{
+    margin-top: 10%;
+}
+
+.portfolio__block1-1{
+    font-size: 30px;
+    line-height: 28px;
+    color: #60606e;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+.button-group{
+    list-style: none;
+}
+.button{
+    font-size: 14px;
+    line-height: 28px;
+    color: #60606e;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    list-style: none;
+    cursor: pointer;
+
+}
+.element-item{
+
+    margin-top: 30px;
+}
+.is-checked{
+    background-color: #7beec7;;
+}
+
+.news{
+    padding-bottom: 80px;
+    background: #7beec7;
+}
+.news__text1{
+    font-size: 30px;
+    line-height: 48px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+.news__button{
+    width: 165px;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #7beec7;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.news__col2{
+    background-color: #ffffff;
+    padding-bottom: 30px;
+}
+.news__block-text1{
+    font-size: 24px;
+    line-height: 36px;
+    color: #60606e;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    margin-right: 50px;
+}
+.news__block-text2{
+    font-size: 16px;
+    line-height: 24px;
+    color: #999999;
+    font-family: "Open Sans", sans-serif;
+    margin-right: 50px;
+}
+.news__block-text3 {
+    width: 350px;
+    height: 50px;
+    background-color: #ffffff;
+    border: 1px solid rgba(0,0,0,0.1);
+    float: left;
+}
+input[placeholder]{
+    font-size: 16px;
+    color: #999999;
+    font-family: "Montserrat", sans-serif;
+
+}
+.news__block-button{
+    font-size: 14px;
+    line-height: 48px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    width: 135px;
+    background-color: #7beec7;
+    cursor: pointer;
+    border: none;
+}
+.footer{
+    padding-bottom: 50px;
+}
+.footer__menu{
+    margin-top: 50px;
+}
+.footer__menu-item{
+    font-size: 14px;
+    line-height: 28px;
+    color: #9a9a9a;
+    font-family: "Open Sans", sans-serif;
+    display: inline-block;
+    cursor: pointer;
+    list-style: none;
+    margin-right: 30px;
+}
+.footer__text1{
+    font-size: 14px;
+    line-height: 28px;
+    color: #9a9a9a;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 50px;
+
+}
+.footer__icon{
+    margin-top: 10px;
+    display: inline-block;
+
+}
+@media (max-width: 575px) {
+    .header__text2{
+        font-size: 35px;
+        border: 5px solid #60606e;
+    }
+    .header__text1{
+        font-size: 15px;
+    }
+    .element-item{
+        margin-top: 10px;
+    }
+    .footer__icons{
+        margin-left: 25%;
+    }
+    .footer__text1{
+        text-align: center;
+    }
+}
+@media (min-width: 576px) {
+    .portfolio__block1-1{
+        font-size: 25px;
+    }
+    .button{
+        display: inline-block;
+    }
+
+}
+@media (min-width: 768px) {
+    .button{
+        display: block;
+    }
+    .news__block-text3{
+        width: 300px;
+    }
+}
