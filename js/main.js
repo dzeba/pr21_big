@@ -37,6 +37,13 @@ $('.button-group').each( function( i, buttonGroup ) {
 $('.portfolio__block2').masonry({
     // options
     itemSelector: '.element-item',
+});
 
+$('.clients__slider').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    arrows: false
 
 });

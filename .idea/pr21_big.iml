@@ -17,5 +17,6 @@
     <orderEntry type="library" name="isotope.pkgd" level="application" />
     <orderEntry type="library" name="jquery" level="application" />
     <orderEntry type="library" name="masonry.pkgd" level="application" />
+    <orderEntry type="library" name="slick" level="application" />
   </component>
 </module>
