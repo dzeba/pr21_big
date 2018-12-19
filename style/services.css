@@ -174,3 +174,236 @@
     color: #60606e;
     font-family: "Open Sans", sans-serif;
 }
+.why__img{
+    height: 70%;
+    margin-top: 30px;
+}
+.texts{
+    padding-bottom: 100px;
+}
+.texts__text6{
+    font-size: 18px;
+    line-height: 30px;
+    color: #60606e;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.texts__text7{
+    font-size: 14px;
+    line-height: 30px;
+    color: #60606e;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+.texts__img{
+    height: 55px;
+}
+.price{
+    padding-bottom: 100px;
+}
+.price__block{
+    margin-top: 50px;
+}
+.price__text3{
+    font-size: 30px;
+    line-height: 48px;
+    color: #60606e;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+.price__text4{
+    font-size: 14px;
+    line-height: 28px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    width: 165px;
+    height: 30px;
+    background-color: #7beec7;
+    margin-bottom: 20px;
+}
+.price__button1{
+    font-size: 14px;
+    line-height: 36px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    width: 135px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7beec7;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.price__button1:hover{
+    opacity: 0.8;
+}
+.price__block1{
+    padding-left: 10%;
+    padding-bottom: 50px;
+
+}
+.price__block2{
+    padding-left: 10%;
+    padding-bottom: 50px;
+}
+.price__block3{
+    padding-left: 10%;
+    padding-bottom: 50px;
+}
+.price__block1:hover{
+    box-shadow: 0 0 50px rgba(0,0,0,0.25);
+    background-color: #ffffff;
+}
+.price__block2:hover{
+    box-shadow: 0 0 50px rgba(0,0,0,0.25);
+    background-color: #ffffff;
+}
+.price__block3:hover{
+    box-shadow: 0 0 50px rgba(0,0,0,0.25);
+    background-color: #ffffff;
+}
+
+.news{
+    padding-bottom: 80px;
+    background: #7beec7;
+}
+.news__text1{
+    font-size: 30px;
+    line-height: 48px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+.news__button{
+    width: 165px;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #7beec7;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.news__col2{
+    background-color: #ffffff;
+    padding-bottom: 30px;
+}
+.news__block-text1{
+    font-size: 24px;
+    line-height: 36px;
+    color: #60606e;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    margin-right: 50px;
+}
+.news__block-text2{
+    font-size: 16px;
+    line-height: 24px;
+    color: #999999;
+    font-family: "Open Sans", sans-serif;
+    margin-right: 50px;
+}
+.news__block-text3 {
+    width: 350px;
+    height: 50px;
+    background-color: #ffffff;
+    border: 1px solid rgba(0,0,0,0.1);
+    float: left;
+}
+.news__block-text3::placeholder {
+    box-shadow: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.72;
+    color: #cccccc;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+}
+.news__block-button{
+    font-size: 14px;
+    line-height: 48px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    width: 135px;
+    background-color: #7beec7;
+    cursor: pointer;
+    border: none;
+}
+.footer{
+    padding-bottom: 50px;
+}
+.footer__menu{
+    margin-top: 50px;
+}
+.footer__menu-item{
+    font-size: 14px;
+    line-height: 28px;
+    color: #9a9a9a;
+    font-family: "Open Sans", sans-serif;
+    display: inline-block;
+    cursor: pointer;
+    list-style: none;
+    margin-right: 30px;
+}
+.footer__text1{
+    font-size: 14px;
+    line-height: 28px;
+    color: #9a9a9a;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 50px;
+
+}
+.footer__icon{
+    margin-top: 10px;
+    display: inline-block;
+
+}
+.footer__icons1{
+    margin-left: -40px;
+}
+.footer__link{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer__link:hover{
+    color: coral;
+    text-decoration: none;
+}
+
+
+
+
+@media (max-width: 575px) {
+    .footer__icons{
+        margin-left: 20%;
+    }
+    .footer__text1{
+        text-align: center;
+    }
+}
+@media (min-width: 576px) {
+
+
+}
+@media (min-width: 768px){
+
+    .news__block-text3{
+        width: 300px;
+    }
+}
+@media (min-width: 992px) {
+
+}

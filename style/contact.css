@@ -323,6 +323,19 @@ textarea.info-control {
 .footer__icons1{
     margin-left: -40px;
 }
+.footer__link{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer__link:hover{
+    color: coral;
+    text-decoration: none;
+}
 
 
 

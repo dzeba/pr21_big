@@ -372,6 +372,21 @@
     display: inline-block;
 
 }
+.footer__link{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer__link:hover{
+    color: coral;
+    text-decoration: none;
+}
+
+
 @media (max-width: 575px) {
     .header__text2{
         font-size: 35px;
