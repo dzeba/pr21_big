@@ -11,6 +11,15 @@
     <title>Contact</title>
     <link rel="stylesheet" href="../style/slick.css">
     <link rel="stylesheet" href="../style/slick-theme.css">
+    <script type='text/javascript'>
+
+        window.onload = function() {
+            if(!window.location.hash) {
+                window.location = window.location + '#loaded';
+                window.location.reload();
+            }
+        }
+    </script>
 
 </head>
 <body>
@@ -135,7 +144,8 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="../js/main.js"> </script>
-<script src="https://maps.googleapis.com/maps/api/js?callback=initMap">
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap">
 </script>
 </body>
 </html>
